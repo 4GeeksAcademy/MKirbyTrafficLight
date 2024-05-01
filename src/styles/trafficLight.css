@@ -1,0 +1,91 @@
+.stem {
+    background-color: black;
+    width: 20px;
+    height:90px;
+    margin: auto;
+}
+
+.traffic-light-body {
+    background-color: black;
+    width: 100px;
+    height: 280px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 15px 10px;
+}
+
+.red{
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;  
+}
+
+.yellow{
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin: 5px 0;
+}
+
+.green{
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.purple {
+    background-color: purple;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.HiddenBlock {
+    background-color: black;
+    width: 100px;
+    height: 110px;
+    
+    border-radius: 0 0 15px 15px;
+    padding: 10px 10px;
+}
+
+.PurpleLight {
+    margin: -12px 715px;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.selected{
+    box-shadow: 
+    0 0 50px 20px #fff,
+    0 0 100px 60px rgb(243, 227, 82),
+    0 0 140px 90px rgb(231, 241, 241);
+}
+.selectedR{
+    box-shadow: 
+    0 0 50px 20px #fff,
+    0 0 100px 60px rgb(245, 1, 1),
+    0 0 140px 90px rgb(231, 241, 241);
+}
+.selectedG{
+    box-shadow: 
+    0 0 50px 20px #fff,
+    0 0 100px 60px rgb(28, 216, 3),
+    0 0 140px 90px rgb(231, 241, 241);
+}
+.selectedP{
+    box-shadow: 
+    0 0 50px 20px #fff,
+    0 0 100px 60px rgb(167, 3, 189),
+    0 0 140px 90px rgb(231, 241, 241);
+}
